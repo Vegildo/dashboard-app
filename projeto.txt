@@ -1,0 +1,3 @@
+ projeto de dashboard de carros, com duas páginas, uma mostrando uma lista marcas e ao clicá-la mostra-se a lista de modelos na marca.
+
+ Ao clicar no modelo, se abre a página de dashboard de modelo.. com os aspectos técnicos do modelo em forma de nivel circular.
