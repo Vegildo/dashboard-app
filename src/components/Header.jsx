@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
+import { AppBar, Toolbar, Typography, IconButton, Box } from '@mui/material';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Link } from 'react-router-dom';
@@ -18,7 +18,6 @@ const Header = () => {
           <Typography 
             variant="h6" 
             component="div" 
-            className="lavishly" 
             sx={{ flexGrow: 1, fontFamily: '"Lavishly Yours", cursive', fontSize: '30px' }}
           >
             Dashboard de Carros
@@ -26,27 +25,15 @@ const Header = () => {
         </Link>
 
         
-        <IconButton 
-          color="inherit"
-          style={{
-            display: 'flex', 
-            justifyContent: 'flex-end', 
-            padding: '20px'
-          }}
-        >
-          <AcUnitIcon />
-        </IconButton>
-
-        <IconButton 
-          color="inherit"
-          style={{
-            display: 'flex', 
-            justifyContent: 'flex-end', 
-            padding: '20px'
-          }}  
-        >          
-          <NotificationsIcon />
-        </IconButton>
+        
+          <Box sx={{ marginLeft: 'auto' }}>
+            <IconButton color="inherit" sx={{ mr: 1 }}>
+              <AcUnitIcon />
+            </IconButton>
+            <IconButton color="inherit" >
+              <NotificationsIcon />
+            </IconButton>
+          </Box>        
         
       </Toolbar>
     </AppBar>
