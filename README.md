@@ -1,12 +1,27 @@
-# React + Vite
+## 👋 Bem-vindo(a) 
+Olá, meu nome é Leonardo Braga. E sou desenvolvedor FullStack focado em front-end.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄  Objetivo
+Construir um Dashboard Front-end do Zero, para treinamento de conceitos básicos do React.
 
-Currently, two official plugins are available:
+## 💻 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![MUI](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
-## Expanding the ESLint configuration
+## 🔗 Links auxiliares
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone este repositório para sua máquina local.
+2. Abra o terminal e rode `npm install`.
+3. Ainda no terminal rode `npm run dev`.
+4. Use mouse para clicar e navegar dentro das informações do dashboard.
+ 
+
+### 🔍 Créditos
+
+Este Dashboard foi desenvolvido, por [Leonardo Braga](https://github.com/Vegildo).
+
+---
+
+Lembre-se de conferir o repositório [aqui](https://github.com/Vegildo/dashboard-app) e deixar uma ⭐️ se você gostou do projeto!
