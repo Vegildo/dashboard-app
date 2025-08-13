@@ -1,17 +1,9 @@
 import { Box, Typography, Link } from '@mui/material';
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <Box
-      component="footer"
-      sx={{
-        py: 2,
-        px: 2,
-        mt: 'auto',
-        textAlign: 'center',
-        backgroundColor: '#f5f5f5',
-      }}
-    >
+    <Box component="footer" className="app-footer">
       <Typography variant="body2" color="text.secondary">
         Criado por{' '}
         <Link

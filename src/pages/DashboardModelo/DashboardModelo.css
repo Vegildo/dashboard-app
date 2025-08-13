@@ -1,0 +1,56 @@
+.dashboard-modelo {
+  padding: 24px;
+}
+
+.dashboard-modelo h4 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.dashboard-modelo-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 24px; 
+  padding: 20px;
+}
+
+.dashboard-modelo-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+
+  /* tamanho fixo para uniformizar */
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dashboard-modelo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* aumenta o tamanho dos gráficos circulares */
+.dashboard-modelo-card .MuiCircularProgress-root {
+  width: 100px !important;
+  height: 100px !important;
+  margin: 12px 0;
+}
+
+.dashboard-modelo-card p,
+.dashboard-modelo-card span,
+.dashboard-modelo-card .MuiTypography-root {
+  font-size: 20px; /* aumenta tamanho do texto interno */
+}

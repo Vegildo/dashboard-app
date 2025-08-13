@@ -1,0 +1,21 @@
+.app-header {
+  background-color: #ffffff;
+  color: #333;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-header-title {
+  font-family: 'Lavishly Yours', cursive;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.app-header-icons {
+  display: flex;
+  align-items: center;
+}

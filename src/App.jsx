@@ -19,7 +19,6 @@ function App() {
         <Box display="flex">
           <Box
             sx={{
-              marginLeft: '240px',
               display: 'flex',
               flexDirection: 'column',
               minHeight: '100vh',

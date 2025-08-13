@@ -2,11 +2,12 @@ import { AppBar, Toolbar, Typography, IconButton, Box } from '@mui/material';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 
 const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" className="app-header">
       <Toolbar>
         <Link
           to="/"
@@ -18,7 +19,7 @@ const Header = () => {
           <Typography 
             variant="h6" 
             component="div" 
-            sx={{ flexGrow: 1, fontFamily: '"Lavishly Yours", cursive', fontSize: '30px' }}
+            className="app-header-title"
           >
             Dashboard de Carros
           </Typography>
@@ -26,7 +27,7 @@ const Header = () => {
 
         
         
-          <Box sx={{ marginLeft: 'auto' }}>
+          <Box className="app-header-icons" sx={{ marginLeft: 'auto' }}>
             <IconButton color="inherit" sx={{ mr: 1 }}>
               <AcUnitIcon />
             </IconButton>

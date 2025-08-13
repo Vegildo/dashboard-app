@@ -1,0 +1,30 @@
+.dashboard-principal {
+  padding: 20px;
+  text-align: center;
+}
+
+.dashboard-principal h4 {
+  font-family: 'Roboto', sans-serif;  
+  margin-bottom: 15px;
+}
+
+.dashboard-principal button {
+  background-color: #1976d2;
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  margin: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.dashboard-principal button:hover {
+  background-color: #125ca1;
+}
+
+.dashboard-container {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 1200px;
+}
