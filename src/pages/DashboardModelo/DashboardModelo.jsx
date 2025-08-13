@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { carData } from '../data/carData';
+import { carData } from '../../data/carData';
 import { Box, Typography, CircularProgress } from '@mui/material';
 
 const DashboardModelo = () => {

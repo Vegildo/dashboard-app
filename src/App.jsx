@@ -3,10 +3,10 @@ import { ThemeProvider, Container, Box } from '@mui/material';
 
 import theme from './shared/provider/theme';
 
-import DashboardPrincipal from './pages/DashboardPrincipal';
-import DashboardModelo from './pages/DashboardModelo';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import DashboardPrincipal from './pages/DashboardPrincipal/DashboardPrincipal';
+import DashboardModelo from './pages/DashboardModelo/DashboardModelo';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 import './App.css'
 

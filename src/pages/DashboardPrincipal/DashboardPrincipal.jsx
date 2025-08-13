@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { carData } from '../data/carData';
+import { carData } from '../../data/carData';
 import { Box, Card, CardContent, Typography, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 
